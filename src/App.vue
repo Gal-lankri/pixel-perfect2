@@ -1,10 +1,11 @@
 
-
 <template>
   <section class="app-main">
     <app-header />
-    <intro/>
-    <app-footer />
+    <hero/>
+    <feature-list/>
+    <stay-productive/>
+    <app-footer/>
   </section>
 </template>
 
@@ -12,12 +13,16 @@
 import appHeader from './cmps/app-header.vue'
 import appFooter from './cmps/app-footer.vue';
 import appMain from './cmps/app-main.vue'
-import intro from './cmps/intro.vue'
+import hero from './cmps/hero.vue'
+import featureList from './cmps/feature-list.vue'
+import stayProductive from './cmps/stay-productive.vue';
 export default {
   components: {
     appHeader,
     appFooter,
-    intro
+    hero,
+    featureList,
+    stayProductive
   }
 
 }

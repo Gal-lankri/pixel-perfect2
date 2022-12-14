@@ -1,0 +1,19 @@
+.feature-preview {
+    width: 100%;
+    align-items: center;
+    padding: rem(75px);
+    font-size: rem(20px);
+    font-family: raleway-bold;
+    color: $clr3;
+    .img-container {
+        width: 100px;
+        height: 100px;
+        img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+          
+        }
+    }
+
+}

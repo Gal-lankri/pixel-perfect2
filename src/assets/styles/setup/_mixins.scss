@@ -56,3 +56,15 @@
         }
     }
   }
+
+  @mixin btn($font-size, $padding-top-bottom, $padding-right-left){
+    padding: $padding-top-bottom $padding-right-left;
+    background-color: $clr2;
+    font-size: $font-size;
+    font-family: raleway-bold;
+    border-radius: 50px;
+    &:hover{
+        cursor: pointer;
+        background-color: $clr1;
+    }
+  }

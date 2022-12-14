@@ -1,0 +1,26 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $clr3;
+    font-family: "raleway-bold";
+
+    img {
+        margin-bottom: rem(36px);
+    }
+
+    h2 {
+        margin-bottom: rem(173px);
+    }
+
+    .curvey {
+        background-image: url(/src/assets/images/bg-curvy-desktop.svg);
+       background-size:cover;
+    }
+
+    button {
+        @include btn(rem(16px), rem(19px), rem(95px));
+        margin-bottom: rem(158px);
+
+    }
+}
