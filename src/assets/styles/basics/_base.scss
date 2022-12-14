@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+    line-height: 1.6;
+    color: $clr2;
+}
+#app{
+    width: 100%;
+    height: 100vh;
+}
+body {
+    margin: 0;
+    width: 1440px;
+    height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: raleway-bold;
+    margin: 0 0 0.6em;
+    line-height: 1;
+}
+
+
+section, main, footer {
+    padding: 5px;
+}
+
+// img {
+//     width: 100%;
+// }
+
+p {
+    margin: 0 0 1em;
+    max-width: 40ch;
+}
+
+a {
+    text-decoration: none;
+    color: $clr3;
+    font-family: raleway-regular;
+    font-size: rem(16px);
+}
+a:hover {
+    text-decoration: underline;
+}
+
